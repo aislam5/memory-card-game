@@ -1,0 +1,13 @@
+We compare the value of the selected Cards if they match one another then we Print them out
+face upwards
+Class for the Card Itself 
+A class for the main Screen Showing Options to Show Leaderboard, Show the time for the previous
+attempt, Shuffle the cards once more, and an option to Start the game once more
+An aggregator Class thath keeps all the times stored and an ElapsedTimePeriod Class that
+is the Onject of the ELapsed time passed. 
+The Cards will be assigned random numbers from 1 to 10 with no more than 2 of each number 
+When asked to Shuffle it will once more assign values.
+
+Card Class needs methods to set and get its value so it can be compared.
+A toPrint class or method must also exist which tells us what to print based on the value of the
+cards.
